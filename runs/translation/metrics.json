@@ -1,0 +1,12 @@
+{
+  "best_epoch": 23,
+  "best_val_loss": 0.5106496546003554,
+  "best_val_token_acc": 0.9175742790038378,
+  "final_val_loss_last_epoch": 0.7738188041581048,
+  "final_val_token_acc_last_epoch": 0.9161685047547352,
+  "final_train_loss": 0.00273013646998758,
+  "num_epochs": 100,
+  "src_vocab_size": 240,
+  "tgt_vocab_size": 302,
+  "num_params": 502830
+}

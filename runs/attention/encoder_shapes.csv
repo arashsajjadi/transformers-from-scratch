@@ -1,0 +1,7 @@
+step,shape,note
+1. Token IDs,"(batch=32, seq=12)",Input to embedding
+2. Token Embeddings,"(32, 12, 64)",After embedding lookup
+3. + Positional Enc,"(32, 12, 64)","Same shape, different values"
+4. After Encoder×2,"(32, 12, 64)",Shape preserved through blocks
+5. Mean Pool,"(32, 64)",Average over seq_len dim
+6. Classifier logits,"(32, 2)",Binary classification output

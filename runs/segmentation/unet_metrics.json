@@ -1,0 +1,10 @@
+{
+  "pixel_accuracy": 0.9999873821551983,
+  "mean_iou": 0.999787822898172,
+  "dice_score": 0.9998938655942174,
+  "final_train_loss": 0.028391307592391966,
+  "final_val_loss": 0.02418084958424935,
+  "num_params": 1948388,
+  "num_epochs": 5,
+  "base_channels": 32
+}

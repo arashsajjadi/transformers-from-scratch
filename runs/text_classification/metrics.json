@@ -1,0 +1,8 @@
+{
+  "final_val_accuracy": 0.4444444444444444,
+  "final_val_loss": 0.9951245188713074,
+  "final_train_loss": 0.37496517300605775,
+  "num_epochs": 20,
+  "vocab_size": 235,
+  "num_params": 16099
+}

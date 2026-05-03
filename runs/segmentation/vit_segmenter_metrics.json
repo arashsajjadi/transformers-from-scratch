@@ -1,0 +1,9 @@
+{
+  "pixel_accuracy": 0.9542283278245193,
+  "mean_iou": 0.6198309281670757,
+  "dice_score": 0.67252172754906,
+  "final_train_loss": 0.29296530306339263,
+  "final_val_loss": 0.27553972601890564,
+  "num_params": 122324,
+  "num_epochs": 10
+}

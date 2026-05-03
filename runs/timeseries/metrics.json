@@ -1,0 +1,9 @@
+{
+  "final_val_mse": 0.03223568573594093,
+  "final_val_mae": 0.1433754414319992,
+  "final_train_mse": 0.02323758855462074,
+  "num_epochs": 8,
+  "input_length": 48,
+  "forecast_length": 12,
+  "num_params": 76556
+}

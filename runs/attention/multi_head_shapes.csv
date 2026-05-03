@@ -1,0 +1,9 @@
+tensor,shape,description
+input x,"(2, 8, 64)","Token embeddings [batch, seq, d_model]"
+output,"(2, 8, 64)","MHA output [batch, seq, d_model]"
+attn_weights,"(2, 4, 8, 8)","[batch, heads, seq_q, seq_k]"
+Q (projected),"(2, 4, 8, 16)",After split_heads
+K (projected),"(2, 4, 8, 16)",After split_heads
+V (projected),"(2, 4, 8, 16)",After split_heads
+w_q weight,"(64, 64)",Q projection weight
+w_o weight,"(64, 64)",Output projection weight

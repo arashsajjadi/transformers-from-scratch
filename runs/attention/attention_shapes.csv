@@ -1,0 +1,8 @@
+tensor,shape,description
+Q,"(2, 1, 5, 8)","Query [batch, heads, seq_q, d_k]"
+K,"(2, 1, 5, 8)","Key   [batch, heads, seq_k, d_k]"
+V,"(2, 1, 5, 8)","Value [batch, heads, seq_k, d_v]"
+scores,"(2, 1, 5, 5)",Raw scores QK^T
+weights,"(2, 1, 5, 5)",Softmax(scores/sqrt(d_k))
+output,"(2, 1, 5, 8)",Weighted sum of V
+causal_mask,"(1, 1, 5, 5)",Upper-triangular bool mask

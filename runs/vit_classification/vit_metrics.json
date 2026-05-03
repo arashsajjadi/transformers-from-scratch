@@ -1,0 +1,12 @@
+{
+  "test_accuracy": 0.8616,
+  "final_val_accuracy": 0.8635,
+  "final_train_loss": 0.39237666963400997,
+  "final_val_loss": 0.36358448371608204,
+  "num_params": 71690,
+  "num_epochs": 5,
+  "batch_size": 64,
+  "lr": 0.001,
+  "patch_size": 7,
+  "d_model": 64
+}
