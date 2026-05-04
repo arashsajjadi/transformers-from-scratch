@@ -1,9 +1,16 @@
 {
-  "pixel_accuracy": 0.9542283278245193,
-  "mean_iou": 0.6198309281670757,
-  "dice_score": 0.67252172754906,
-  "final_train_loss": 0.29296530306339263,
-  "final_val_loss": 0.27553972601890564,
-  "num_params": 122324,
-  "num_epochs": 10
+  "pixel_accuracy": 0.9982886681189904,
+  "mean_iou": 0.9876600864698521,
+  "dice_score": 0.9937686094192706,
+  "best_epoch": 18,
+  "best_miou_during_training": 0.9876600864698521,
+  "final_train_loss": 0.15138538122177125,
+  "final_val_loss": 0.14915264283235258,
+  "num_params": 624644,
+  "num_epochs": 20,
+  "patch_size": 8,
+  "d_model": 128,
+  "num_heads": 8,
+  "num_layers": 4,
+  "dim_feedforward": 256
 }
